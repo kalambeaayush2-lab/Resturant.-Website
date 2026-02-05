@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TasteHub Restaurant</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff8f3;
+      color: #333;
+    }
+
+    header {
+      background: #c62828;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    button {
+      background: #c62828;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background: #a71d1d;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🍽️ TasteHub Restaurant</h1>
+  <p>Delicious Food, Made With Love</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We serve fresh, tasty, and hygienic food using premium ingredients. Your happiness is our recipe ❤️</p>
+</section>
+
+<section id="menu">
+  <h2>Our Menu</h2>
+  <div class="menu">
+    <div class="card">🍕 Pizza – ₹299</div>
+    <div class="card">🍔 Burger – ₹149</div>
+    <div class="card">🍝 Pasta – ₹249</div>
+    <div class="card">🥗 Salad – ₹199</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 Mumbai, India</p>
+  <p>📞 +91 98765 43210</p>
+  <button onclick="alert('Order feature coming soon!')">Order Now</button>
+</section>
+
+<footer>
+  <p>© 2026 TasteHub Restaurant</p>
+</footer>
+
+</body>
+</html>
